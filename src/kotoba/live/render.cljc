@@ -13,7 +13,7 @@
   real rig. This module only builds the EDN description; the actual GPU
   draw call, VRM mesh skinning, and audio playback device I/O are host-side
   (out of scope for this port — see README)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kotoba.live.avatar :as avatar]
             [kotoba.live.camera :as camera]
             [kotoba.live.mathx :as mathx]))

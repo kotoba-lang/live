@@ -11,7 +11,7 @@
   per-frame parameter values, and emits a render-IR `:live2d` entry. The
   actual `.moc3`/`.model3.json` ArtMesh warp + Live2D physics is host-side
   (the Cubism runtime), exactly as VRM mesh skinning is."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kotoba.live.edn-util :as eu]
             [kotoba.live.mathx :as mathx]))
 
