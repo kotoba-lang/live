@@ -143,8 +143,8 @@ resource — matching how the rest of this monorepo separates data from logic.
 ## Test / lint
 
 ```sh
-clojure -M:test
-clojure -M:lint
+kbb -M:test
+kbb -M:lint
 ```
 
 ## License
