@@ -1,5 +1,5 @@
 (ns kotoba.live.beat-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.beat :as beat]))
 
 (deftest beat-seconds-test

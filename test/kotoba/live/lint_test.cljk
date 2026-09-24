@@ -1,5 +1,5 @@
 (ns kotoba.live.lint-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.lint :as lint]))
 
 (deftest flags-unknown-wave-and-vowel

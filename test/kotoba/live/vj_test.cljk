@@ -1,5 +1,5 @@
 (ns kotoba.live.vj-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.vj :as vj]))
 
 (defn- p [phrase] {:time 0.0 :beat 0 :bar 0 :phrase phrase :beat-frac 0.0 :bar-frac 0.0})

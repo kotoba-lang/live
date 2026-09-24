@@ -1,5 +1,5 @@
 (ns kotoba.live.live2d-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.edn-util :as eu]
             [kotoba.live.live2d :as live2d]
             [kotoba.live.performer :as performer]))

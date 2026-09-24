@@ -1,5 +1,5 @@
 (ns kotoba.live.render-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.camera :as camera]
             [kotoba.live.render :as render]
             [kotoba.live.scene :as scene]
