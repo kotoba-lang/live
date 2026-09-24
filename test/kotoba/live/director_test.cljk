@@ -1,5 +1,5 @@
 (ns kotoba.live.director-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.director :as director]
             [kotoba.live.scene :as scene]
             [kotoba.live.show :as show]))

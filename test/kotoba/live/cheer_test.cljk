@@ -1,5 +1,5 @@
 (ns kotoba.live.cheer-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.cheer :as cheer]))
 
 (deftest evict-drops-old-samples

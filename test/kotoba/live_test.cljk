@@ -1,6 +1,6 @@
 (ns kotoba.live-test
   "Smoke test for the top-level re-export namespace."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live :as live]))
 
 (deftest re-exports-resolve-and-work

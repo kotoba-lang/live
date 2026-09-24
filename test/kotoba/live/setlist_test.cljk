@@ -1,5 +1,5 @@
 (ns kotoba.live.setlist-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.live.setlist :as setlist]))
 
 (defn- t [id bpm beats cues]
