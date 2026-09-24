@@ -9,7 +9,7 @@
   behaviour the original tolerant loader had (missing/mistyped keys fall
   back rather than throw)."
   (:refer-clojure :exclude [num])
-  (:require #?(:clj [clojure.edn :as edn] :cljs [cljs.reader :as edn])))
+  (:require #?(:clj [kotoba.lang.edn :as edn] :cljs [cljs.reader :as edn])))
 
 (defn read-edn
   "Read one EDN form from `src`, or `nil` on a malformed/empty string."
