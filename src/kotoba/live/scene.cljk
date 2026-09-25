@@ -31,7 +31,7 @@
             [kotoba.live.render :as render]
             [kotoba.live.show :as show]
             [kotoba.live.vj :as vj]
-            #?(:clj [clojure.java.io :as io])))
+            #?(:clj [kotoba.io :as io])))
 
 ;; ── by-name lookups (unknown / missing -> a documented default) ────────────
 
